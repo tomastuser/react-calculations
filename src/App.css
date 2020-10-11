@@ -1,0 +1,39 @@
+.bg-primary {
+  background-color: rgb(93, 171, 255) !important;
+}
+.btn-primary {
+  background-color: rgb(93, 171, 255) !important;
+  border-color: rgb(158, 205, 255) !important;
+}
+.bg-secondary {
+  background-color: rgb(243, 243, 243) !important;
+}
+.bg-success {
+  background-color: rgb(157, 233, 95) !important;
+}
+.bg-danger {
+  background-color: rgb(247, 160, 110) !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+.form-control:valid {
+  background-image: none !important;
+  padding-right: 0 !important;
+}
+.form-control:invalid {
+  background-image: none !important;
+  padding-right: 0 !important;
+}
+@media screen and (max-width: 769px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}

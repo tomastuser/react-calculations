@@ -1,3 +1,5 @@
-import { createContext } from 'react';
+import { createContext, useContext } from 'react';
 
-export const CalcContext = createContext();
+const CalcContext = createContext();
+export default CalcContext;
+export const useCalcContext = () => useContext(CalcContext);
